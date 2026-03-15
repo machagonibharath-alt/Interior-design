@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe | Interior Design</title>
+    <meta name="description" content="Premium interior design services for residential and commercial spaces.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Setup layout -->
+    <header>
+        <div class="logo">LUXE</div>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Elevate Your Space</h1>
+                <p>Bespoke interior design tailored to your lifestyle.</p>
+                <a href="#contact" class="btn">Book a Consultation</a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="section-header">
+                <h2>Our Expertise</h2>
+                <p>Curated design solutions for every environment.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img residential-img"></div>
+                    <div class="service-content">
+                        <h3>Residential</h3>
+                        <p>Transforming houses into personalized homes with bespoke character and comfort.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img commercial-img"></div>
+                    <div class="service-content">
+                        <h3>Commercial</h3>
+                        <p>Elevating brand identity through sophisticated, functional workspace design.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img styling-img"></div>
+                    <div class="service-content">
+                        <h3>Interior Styling</h3>
+                        <p>Curating furniture, art, and decor to breathe new life into existing spaces.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>A glimpse into our crafted environments.</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80" alt="Modern Living Room">
+                    <div class="portfolio-overlay">
+                        <div class="overlay-text">The Minimalist Haven</div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=800&q=80" alt="Contemporary Kitchen">
+                    <div class="portfolio-overlay">
+                        <div class="overlay-text">Urban Culinary Space</div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80" alt="Luxurious Bedroom">
+                    <div class="portfolio-overlay">
+                        <div class="overlay-text">Serene Retreat</div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80" alt="Elegant Dining Area">
+                    <div class="portfolio-overlay">
+                        <div class="overlay-text">Classic Elegance</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Let's Talk Design</h2>
+                    <p>Ready to transform your space? Get in touch to schedule a consultation.</p>
+                    <ul class="contact-details">
+                        <li>Email: hello@luxedesign.com</li>
+                        <li>Phone: +1 (555) 123-4567</li>
+                        <li>Studio: 123 Design Avenue, New York, NY</li>
+                    </ul>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Tell us about your project" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
